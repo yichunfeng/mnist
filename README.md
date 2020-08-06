@@ -35,6 +35,7 @@ test_dataset = datasets.MNIST(root='./data', train=False, transform=data_tf)
 ```
 
 ## Performance of Control Group
+
 ![image](https://github.com/yichunfeng/mnist/blob/master/%20mlp_3layer.png){:height="100px" width="400px"}
 
 ## Treatment Groups 
@@ -61,19 +62,21 @@ net2 = Net2(n_feature=28*28, n_hidden1=256,\
 
 The comparisons of accuracy and loss are presented below:
 
-![image](https://github.com/yichunfeng/mnist/blob/master/Accuracy_Layer.png){:height="100px" width="400px"}
 
-![image](https://github.com/yichunfeng/mnist/blob/master/Loss_Layer.png){:height="100px" width="400px"}
+![image](https://github.com/yichunfeng/mnist/blob/master/Accuracy_Layer.png)
+
+
+![image](https://github.com/yichunfeng/mnist/blob/master/Loss_Layer.png)
 
 The following are the illustrations how the relation between the training the testing could be affected when we add or delete one layer:
 
 If we add one layer:
 
-![image](https://github.com/yichunfeng/mnist/blob/master/plus_1_layer.png){:height="100px" width="400px"}
+![image](https://github.com/yichunfeng/mnist/blob/master/plus_1_layer.png)
 
 If we delete one layer:
 
-![image](https://github.com/yichunfeng/mnist/blob/master/minus_1_layer.png){:height="100px" width="400px"}
+![image](https://github.com/yichunfeng/mnist/blob/master/minus_1_layer.png)
 
 
 ### Different Optimizer
