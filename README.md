@@ -1,4 +1,4 @@
-# Hand Written Digits Classifiaction by Multilayer Perceptron with PyTorch
+# Hand Written Digits Classification by Multilayer Perceptron with PyTorch
 
 This is a quick start for analyzing how the model affects the performance of classification.
 The control group is a three-layer perceptron with:
