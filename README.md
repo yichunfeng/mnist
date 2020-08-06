@@ -63,11 +63,9 @@ net2 = Net2(n_feature=28*28, n_hidden1=256,\
 
 The comparisons of accuracy and loss are presented below:
 
+<img src="https://github.com/yichunfeng/mnist/blob/master/Accuracy_Layer.png" width="500" height="400">
 
-![image](https://github.com/yichunfeng/mnist/blob/master/Accuracy_Layer.png)
-
-
-![image](https://github.com/yichunfeng/mnist/blob/master/Loss_Layer.png)
+<img src="https://github.com/yichunfeng/mnist/blob/master/Loss_Layer.png" width="500" height="400">
 
 The following are the illustrations how the relation between the training the testing could be affected when we add or delete one layer:
 
