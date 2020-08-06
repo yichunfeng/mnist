@@ -60,6 +60,7 @@ net2 = Net2(n_feature=28*28, n_hidden1=256,\
 ```
 
 The result is presented below:
+
 ![image](https://github.com/yichunfeng/mnist/blob/master/Accuracy_Layer.png)
 
 ![image](https://github.com/yichunfeng/mnist/blob/master/Loss_Layer.png)
