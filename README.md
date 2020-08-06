@@ -37,7 +37,7 @@ test_dataset = datasets.MNIST(root='./data', train=False, transform=data_tf)
 ## Performance of Control Group
 
 
-<img src="https://github.com/yichunfeng/mnist/blob/master/%20mlp_3layer.png" width="700" height="700">
+<img src="https://github.com/yichunfeng/mnist/blob/master/%20mlp_3layer.png" width="500" height="300">
 
 ## Treatment Groups 
 
