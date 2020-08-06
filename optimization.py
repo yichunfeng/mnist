@@ -7,7 +7,7 @@ Created on Sun Mar 10 21:33:26 2019
 """
 
 
-# 數學科學院 1801210118 馮逸群 Yi-Chun, Feng
+# Yi-Chun, Feng
 
 
 """ 
