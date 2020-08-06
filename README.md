@@ -78,7 +78,7 @@ opt_RMSprop = torch.optim.RMSprop(net_RMSprop.parameters(), lr=0.02, alpha=0.9)
 optimizer = opt_RMSprop 
 ```
 
-###Regularization
+### Regularization
 
 We added regularizer L1 and L2 in regularization.py.
 
