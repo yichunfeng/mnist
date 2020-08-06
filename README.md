@@ -59,11 +59,18 @@ net2 = Net2(n_feature=28*28, n_hidden1=256,\
           n_hidden2=128,n_output=10) 
 ```
 
-The result is presented below:
+The comparisons of accuracy and loss are presented below:
 
 ![image](https://github.com/yichunfeng/mnist/blob/master/Accuracy_Layer.png)
 
 ![image](https://github.com/yichunfeng/mnist/blob/master/Loss_Layer.png)
+
+The following are the illustrations how the relation between the training the testing could be affected when we add or delete one layer:
+
+![image]
+
+![image]
+
 
 ### Different Optimizer
 optimization.py and sgd_bgd.py provide different optimizers including Batch Gradient Descent, Root Mean Square Prop and Adaptive Moment Estimation for the multilayer perceptron.
