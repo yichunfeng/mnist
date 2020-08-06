@@ -38,6 +38,8 @@ test_dataset = datasets.MNIST(root='./data', train=False, transform=data_tf)
 
 ![image](https://github.com/yichunfeng/mnist/blob/master/%20mlp_3layer.png)
 
+<img src="https://github.com/yichunfeng/mnist/blob/master/%20mlp_3layer.png" width="400" height="100">
+
 ## Treatment Groups 
 
 ### Different Numbers of Layers
