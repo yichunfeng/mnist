@@ -71,8 +71,8 @@ optimizer = torch.optim.SGD(net.parameters(), lr=0.02)
 
 loss_func = torch.nn.CrossEntropyLoss()
 
-BATCH_SIZE = 60000#SGD
-BATCH_SIZE2 = 1#BGD
+BATCH_SIZE = 1#SGD
+BATCH_SIZE2 = 60000#BGD
 
 
 
