@@ -37,7 +37,7 @@ test_dataset = datasets.MNIST(root='./data', train=False, transform=data_tf)
 ## Performance of Control Group
 ![image](https://github.com/yichunfeng/mnist/blob/master/%20mlp_3layer.png)
 
-## Model 
+## Treatment Groups 
 
 ### Different Numbers of Layers
 Experiment in mlp.py demonstrates the performance of 4-layer, 3-layer and 2-layer. 
@@ -58,6 +58,11 @@ The 2-layer perceptron:
 net2 = Net2(n_feature=28*28, n_hidden1=256,\
           n_hidden2=128,n_output=10) 
 ```
+
+The result is presented below:
+![image](https://github.com/yichunfeng/mnist/blob/master/Accuracy_Layer.png)
+
+![image](https://github.com/yichunfeng/mnist/blob/master/Loss_Layer.png)
 
 ### Different Optimizer
 optimization.py and sgd_bgd.py provide different optimizers including Batch Gradient Descent, Root Mean Square Prop and Adaptive Moment Estimation for the multilayer perceptron.
