@@ -71,11 +71,11 @@ The following are the illustrations how the relation between the training the te
 
 If we add one layer:
 
-![image](https://github.com/yichunfeng/mnist/blob/master/plus_1_layer.png)
+<img src="https://github.com/yichunfeng/mnist/blob/master/plus_1_layer.png" width="500" height="400">
 
 If we delete one layer:
 
-![image](https://github.com/yichunfeng/mnist/blob/master/minus_1_layer.png)
+<img src="https://github.com/yichunfeng/mnist/blob/master/minus_1_layer.png" width="500" height="400">
 
 
 ### Different Optimizer
