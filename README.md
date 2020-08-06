@@ -33,7 +33,9 @@ train_dataset = datasets.MNIST(root='./data', train=True, transform=data_tf, dow
 
 test_dataset = datasets.MNIST(root='./data', train=False, transform=data_tf)
 ```
- 
+
+## Performance of Control Group
+![image](https://github.com/yichunfeng/mnist/blob/master/%20mlp_3layer.png)
 
 ## Model 
 
