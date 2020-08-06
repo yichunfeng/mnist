@@ -98,6 +98,19 @@ net_RMSprop = Net()
 opt_RMSprop = torch.optim.RMSprop(net_RMSprop.parameters(), lr=0.02, alpha=0.9)
 optimizer = opt_RMSprop 
 ```
+The comparison betweeen SGD and BGD:
+
+<img src="https://github.com/yichunfeng/mnist/blob/master/accuracy_sgd_bgd.png" width="500" height="400">
+
+<img src="https://github.com/yichunfeng/mnist/blob/master/loss_sgd_bgd.png" width="500" height="400">
+
+The result of RMSprop:
+
+<img src="https://github.com/yichunfeng/mnist/blob/master/RMSprop.png" width="500" height="400">
+
+The result of Adam:
+
+<img src="https://github.com/yichunfeng/mnist/blob/master/adam.png" width="500" height="400">
 
 ### Regularization
 
@@ -122,6 +135,14 @@ and
 loss=loss_func(out,label)+lambda2 * l2_penalty(out)
 ```
 
+The result of L1 regularization:
+
+<img src="https://github.com/yichunfeng/mnist/blob/master/dropout.png" width="500" height="400">
+
+The result of L2 regularization:
+
+<img src="https://github.com/yichunfeng/mnist/blob/master/L2.png" width="500" height="400">
+
 ### Weight Initialization
 
 We applied weight initialization in weight_initialization.py to compare the difference between weights generated from normal distribution and weights by Xavier initialization.
@@ -138,3 +159,11 @@ def init_weights_normal(m):
         torch.nn.init.normal_(m.weight.data, mean=0, std=1)
         m.bias.data.fill_(0.01)
 ```
+
+The result of MLP with weights by normal distribution:
+
+<img src="https://github.com/yichunfeng/mnist/blob/master/Normal.png" width="500" height="400">
+
+The result of Xavier initialization:
+
+<img src="https://github.com/yichunfeng/mnist/blob/master/Xavier.png" width="500" height="400">
