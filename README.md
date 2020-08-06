@@ -67,9 +67,13 @@ The comparisons of accuracy and loss are presented below:
 
 The following are the illustrations how the relation between the training the testing could be affected when we add or delete one layer:
 
-![image]
+If we add one layer:
 
-![image]
+![image](https://github.com/yichunfeng/mnist/blob/master/plus_1_layer.png)
+
+If we delete one layer:
+
+![image](https://github.com/yichunfeng/mnist/blob/master/minus_1_layer.png)
 
 
 ### Different Optimizer
