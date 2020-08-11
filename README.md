@@ -167,3 +167,9 @@ The result of MLP with weights by normal distribution:
 The result of Xavier initialization:
 
 <img src="https://github.com/yichunfeng/mnist/blob/master/Xavier.png" width="500" height="400">
+
+## Author
+Yi-Chun, Feng
+
+## License
+MIT License
